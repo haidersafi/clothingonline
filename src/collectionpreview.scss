@@ -1,0 +1,14 @@
+.collectionshort{
+    display: flex;
+    flex-direction: column;
+  
+& h3:hover{
+    cursor: pointer;
+}
+}
+
+.collectionpreview{
+    display: flex;
+    background-color: whitesmoke;
+   
+}

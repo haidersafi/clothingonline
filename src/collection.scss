@@ -1,0 +1,11 @@
+.collection{
+    width:100%;
+    display:flex;
+  justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+& .collection-item{
+    width:20%;
+}
+}

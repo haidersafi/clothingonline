@@ -1,0 +1,50 @@
+.menuitem {
+  min-width: 25%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 7.5px 15px;
+  flex: 1 1 auto;
+  overflow: hidden;
+//   background-position: center;
+//   background-size: cover;
+  &.large {
+    height: 350px;
+    background-position: top;
+  }
+  & &:first-child {
+    margin-right: 7.5px;
+  }
+  &:last-child {
+    margin-left: 7.5px;
+  }
+  &:hover {
+cursor: pointer;
+& .backgroundimage{
+    transform:scale(1.1);
+    transition: transform 6s cubic-bezier(0.25,0.45,0.45,0.95);
+}
+.content{
+  width:150px;
+  background-color: black;
+  color: white;
+}
+}
+ .backgroundimage{
+height:100%;
+width:100%;
+background-size: cover;
+background-position: center;
+  }
+  .content {
+    padding: 5px 30px;
+    transition: transform 3s ease-in-out;
+    position:absolute;
+    background-color: white;
+    opacity: 0.7;
+    min-width: 100px;
+    height:150px;
+   
+  }
+}
